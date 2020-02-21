@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-wrapper{
+    width: 1400px;
+}
+
+.main{
+    height: 100vh;
+
+
+
+}
+
+
+
+  
+//   $color-primary: #f9ed69; //yellow color e comentarios  toda variavel é armazenada dentro de $
+//   $color-secundary: #f08a5d;
+//   $color-tertiary: #b83b5e;
+//   $color-text-dark: #333;
+//   $color-text-light: #eee;
+//   $width-button: 150px;
+  
+//   @mixin clearfix {
+//     &::after {
+//       content: "";
+//       clear: both;
+//       display: table;
+//     }
+//   }
+  
+//   @mixin style-link-text($color){
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     color: $color;
+//   }
+  
+//   nav {
+//     margin: 30px;
+//     background-color: $color-primary;
+//     @include clearfix;
+//   }
+  
+//   .navigation {
+//     list-style: none;
+//     float: left;
+    
+//     li {
+//       display: inline-block;
+//       margin-left: 30px;
+    
+//       &:first-child{
+//         margin: 0;
+//       }
+      
+//       a:link{
+//         @include style-link-text($color-text-dark);
+//       }
+//     }
+//   }
+  
+//   .button {
+//      float: right  
+//   }
+  
+//   %btn-placeholder{
+//     padding: 10px;
+//     display: inline-block;
+//     text-align: center;
+//     border-radius: 50px;
+//     width: $width-button;
+//     @include style-link-text($color-text-light);
+//   }
+  
+//   .btn-main{
+//     &:link{
+//       background-color: $color-secundary;
+//       @extend %btn-placeholder;
+//     }
+    
+//     &:hover{
+//       background-color: darken($color-secundary , 15%);
+//     }
+//   }
+  
+//   .btn-hot{
+//     &:link{
+//       background-color: $color-tertiary;
+//       @extend %btn-placeholder;
+//     }
+    
+//     &:hover{
+//       background-color: lighten($color-tertiary , 15%);
+//     }
+//   }
+
+// ### Primary
+// - Pink: hsl(322, 100%, 66%)
+
+// ### Neutral
+// - Very Pale Cyan: hsl(193, 100%, 96%)
+// - Very Dark Cyan: hsl(192, 100%, 9%)
+// - Grayish Blue: hsl(208, 11%, 55%)
+
+// - Font size: 18px
+
+// ### Headings
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 600
+
+// ### Body, Call-to-actions
+// - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+// - Weights: 400, 700
