@@ -1,3 +1,3 @@
 # huddle-landing-page
 
-Projeto em Sass (desenvolvimento)
+Projeto em CSS (desenvolvimento)

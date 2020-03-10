@@ -183,27 +183,9 @@ h2{
     margin-left: 4rem;
 }
 
-
-
-
-
-
-footer{
-    height: 10rem;
-    width: 100%;
-    background-color: hsl(192, 100%, 9%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 .footer-disclaimer{
     position: absolute;
-    top: -10%;
-    /* width: 30rem;
-    height: 10rem; */
+    top: -30%;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -222,18 +204,59 @@ footer{
     font-weight: 700;
 }
 
+footer{
+    height: 20rem;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
-
-
-
+.copyright{
+    position: absolute;
+    color: #fff;
+    right: 5%;
+    bottom: 5%;
+    opacity: 0.5;
+    font-size: 15px;
+}
 
 .footer-wrapper{
     width: 1450px;
     color: #fff;
+    flex-direction: row;
+    display: flex;
 }
 
+.footer-col{
+    width: 100%;
+    margin-top: 3rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    position: relative;
+}
 
-/*
-- Very Dark Cyan: 
-- Grayish Blue:
-*/
+.item{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.5rem 0rem;
+}
+
+.footer-col a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.25rem 0rem;
+}
+
+.footer-branding{
+    background-image: url(../images/logo-off.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 20rem;
+}
