@@ -1,0 +1,239 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color:  hsl(0, 0%, 99%);
+}
+
+.main-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-wrapper{
+    position: absolute;
+    width: 1450px;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    width: 100%;
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+
+.main-hero{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    margin-left: 1rem;
+    background-image: url("../images/illustration-mockups.svg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2rem 0 3rem 0;
+}
+
+.get-started{
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 10px #0000004b;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-wrapper{
+    width: 1450px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+
+.try-it{
+    background-color: #fff;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 1px 10px #0000004b;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.branding{
+    background-image: url(../images/logo.svg);
+    background-size: contain;
+    height: 2.5rem;
+    width: 17rem;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+}
+
+.card-wrapper{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.card-section{
+    position: relative;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 1450px;
+    height: 80%;
+    top: 50%;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px #0000004b;
+    border-radius: 30px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card .img{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card .txt{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt p {
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.txt p:first-child {
+    font-weight: 700;
+    font-size: 150%;
+}
+
+#grow-together{
+    background-image: url(../images/illustration-grow-together.svg);
+    margin-left: 4rem;
+}
+
+#flowing-conversations{
+    background-image: url(../images/illustration-flowing-conversation.svg);
+    margin-right: 4rem;
+}
+
+#your-users{
+    background-image: url(../images/illustration-your-users.svg);
+    margin-left: 4rem;
+}
+
+
+
+
+
+
+footer{
+    height: 10rem;
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer-disclaimer{
+    position: absolute;
+    top: -10%;
+    /* width: 30rem;
+    height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px #0000004b;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.footer-disclaimer .get-started{
+    margin-top: 1rem;
+}
+
+.footer-disclaimer span{
+    font-weight: 700;
+}
+
+
+
+
+
+
+.footer-wrapper{
+    width: 1450px;
+    color: #fff;
+}
+
+
+/*
+- Very Dark Cyan: 
+- Grayish Blue:
+*/
