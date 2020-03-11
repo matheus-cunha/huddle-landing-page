@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     background-color:  hsl(0, 0%, 99%);
+    overflow-x: hidden;
 }
 
 .main-section{
@@ -75,7 +76,6 @@ h2{
     width: 1450px;
     display: flex;
     flex-direction: row;
-    /* background-color: aqua; */
 }
 
 .try-it{
@@ -205,7 +205,7 @@ h2{
 }
 
 footer{
-    height: 20rem;
+    height: 22rem;
     width: 100%;
     background-color: hsl(192, 100%, 9%);
     display: flex;
@@ -215,17 +215,9 @@ footer{
     position: relative;
 }
 
-.copyright{
-    position: absolute;
-    color: #fff;
-    right: 5%;
-    bottom: 5%;
-    opacity: 0.5;
-    font-size: 15px;
-}
-
 .footer-wrapper{
     width: 1450px;
+    margin-top: 2rem;
     color: #fff;
     flex-direction: row;
     display: flex;
@@ -239,12 +231,15 @@ footer{
     flex-direction: column;
     font-size: 16px;
     position: relative;
+    margin: 0 1rem;
 }
 
 .item{
     text-decoration: none;
     color: #fff;
     margin: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .footer-col a{
@@ -258,5 +253,409 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
     height: 3rem;
-    width: 20rem;
+    width: 10rem;
+    position: absolute;
+    top: -35%;
+}
+
+.icon{
+    width: 20px !important;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: '';
+}
+
+.fas{
+    font-size: 18px;
+    width: 2rem;
+}
+
+.item-text{
+    width: 500px;
+}
+
+.icons{
+    flex-direction: row;
+}
+
+.icons .fab{
+    margin: 0rem 1rem;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1550px) {   
+    .main-wrapper{
+        width: 1200px;
+    }
+    
+    .nav-wrapper{
+        width: 1200px;
+    }
+    
+    .branding{
+        height: 2.5rem;
+        width: 12rem;
+    }
+    
+    .card-wrapper{
+        margin: 8rem 0;
+    }
+    
+    .card-section{
+        height: 40rem;
+    }
+    
+    .card{
+        width: 1200px;
+        padding: 1.5rem;
+    }
+        
+    .txt p {
+        margin: 0.5rem;
+        font-size: 95%;
+    }
+    
+    .txt p:first-child {
+        font-weight: 700;
+        font-size: 140%;
+    }
+    
+    #grow-together{
+        margin-left: 3rem;
+    }
+    
+    #flowing-conversations{
+        margin-right: 3rem;
+    }
+    
+    #your-users{
+        margin-left: 3rem;
+    }
+    
+    .footer-disclaimer{
+        top: -30%;
+    }
+            
+    footer{
+        height: 22rem;
+    }
+
+    .footer-wrapper{
+        width: 1270px;
+    }
+    
+    .footer-col{
+        font-size: 15px;
+    }
+    
+    .footer-branding{
+        height: 3rem;
+        width: 8rem;
+    }
+    
+    .fas{
+        font-size: 16px;
+    }
+
+    .item-text{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {   
+    .main-wrapper{
+        width: 900px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 18px;
+        margin: 2rem 0 4rem 0;
+    }
+    
+    .get-started{
+        padding: 0.8rem 3rem;
+        font-size: 16px;
+    }
+    
+    .nav-wrapper{
+        width: 900px;
+    }
+    
+    .try-it{
+        padding: 0.8rem 3rem;
+        font-size: 16px;
+    }
+    
+    .branding{
+        height: 2rem;
+    }
+    
+    .card-wrapper{
+        margin: 6rem 0;
+    }
+    
+    .card-section{
+        height: 30rem;
+    }
+    
+    .card{
+        width: 900px;
+    }
+        
+    .txt p {
+        font-size: 16px;
+    }
+    
+    .txt p:first-child {
+        font-size: 22px;
+    }
+    
+    .footer-disclaimer{
+        top: -20%;
+    }
+        
+    .footer-wrapper{
+        width: 980px;
+    }
+    
+    .footer-branding{
+        top: -40%;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+    
+    .icons .fab{
+        margin: 0.5rem 0rem;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    body{
+        font-size: 16px;
+    }
+    
+    .main-wrapper{
+        width: 590px;
+    }
+    
+    h1{
+        font-size: 22px;
+    }
+    
+    h2{
+        font-size: 16px;
+        margin: 2rem 0 4rem 0;
+    }
+    
+    .get-started{
+        padding: 0.6rem 2.5rem;
+        font-size: 16px;
+    }
+    
+    .nav-wrapper{
+        width: 590px;
+    }
+    
+    .try-it{
+        padding: 0.6rem 2.5rem;
+        font-size: 15px;
+    }
+    
+    .branding{
+        height: 1.6rem;
+    }
+
+    .card-wrapper{
+        margin: 5rem 0 8rem 0;
+    }
+    
+    .card-section{
+        height: 25rem;
+    }
+    
+    .card{
+        width: 590px;
+    }
+        
+    .txt p {
+        font-size: 15px;
+    }
+    
+    .txt p:first-child {
+        font-size: 16px;
+    }
+    
+    .footer-disclaimer{
+        top: -8%;
+    }
+            
+    footer{
+        height: 50rem;
+        flex-direction: column;
+    }
+    
+    .copyright{
+        left: 50%;
+        transform: translateX(-35%);
+    }
+    
+    .footer-wrapper{
+        width: 600px;
+        flex-direction: column;
+    }
+    
+    .footer-col{
+        margin-top: 3rem;
+        margin: 1.5rem 0;
+    }
+    
+    .footer-branding{
+        top: -40%;
+    }
+
+    .icons{
+        flex-direction: row;
+    }
+    
+    .icons .fab{
+        margin: 0 0.5rem;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    body{
+        font-size: 15px;
+    }
+    
+    .main-section{
+        background-image: url('../images/bg-hero-mobile.svg.svg');
+    }
+    
+    .main-wrapper{
+        width: 380px;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-content{
+        margin-right: 0rem;
+        text-align: center;
+        height: 0;
+    }
+    
+    .main-hero{
+        margin-left: 0rem;
+        height: 0;
+    }
+    
+    h1{
+        font-size: 21px;
+    }
+    
+    h2{
+        font-size: 16px;
+        margin: 1rem 0 2rem 0;
+    }
+    
+    .get-started{
+        padding: 0.5rem 2.2rem;
+        font-size: 16px;
+    }
+    
+    .nav-wrapper{
+        width: 380px;
+    }
+    
+    .try-it{
+        padding: 0.5rem 2.2rem;
+        font-size: 14px;
+    }
+    
+    .branding{
+        height: 1.6rem;
+    }
+    
+    .nav{
+        height: 5rem;
+    }
+    
+    .card-wrapper{
+        margin: 4rem 0 8rem 0;
+    }
+    
+    .card-section{
+        height: 25rem;
+    }
+    
+    .card{
+        width: 380px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .txt p {
+        font-size: 15px;
+        width: 100%;
+        display: block;
+    }
+    
+    .txt p:first-child {
+        margin: 0 0 1rem 0;
+        font-size: 16px;
+        width: 100%;
+        display: block;
+    }
+
+    .card .img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .card .txt{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    #grow-together{
+        margin-left: 0;
+    }
+    
+    #flowing-conversations{
+        margin-right: 0;
+    }
+    
+    #your-users{
+        margin-left: 0;
+    }
+    
+    .footer-disclaimer{
+        top: -8%;
+    }
+            
+    footer{
+        flex-direction: column-reverse;
+    }
+    
+    .copyright{
+        visibility: hidden;
+    }
+    
+    .footer-wrapper{
+        width: 380px;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
 }
