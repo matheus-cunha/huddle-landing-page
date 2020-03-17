@@ -2,7 +2,7 @@
 
 > Projeto criado utilizando CSS3 e HTML.
 
-> Prévia hospedada em https://huddle-page.herokuapp.com/
+> Prévia hospedada em https://huddle-website.herokuapp.com/
 
 ---
 
